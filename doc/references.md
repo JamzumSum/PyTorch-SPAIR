@@ -1,0 +1,5 @@
+(VAE)[https://www.sohu.com/a/226209674_500659]
+(VAE)[https://www.sohu.com/a/227026539_500659]
+(STN)[https://blog.csdn.net/sigai_csdn/article/details/81568452]
+(STN)[https://www.cnblogs.com/liaohuiqiang/p/9226335.html]
+(Gumbel-Max Trick)[https://www.zhihu.com/question/62631725/answer/201338234]

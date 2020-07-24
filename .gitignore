@@ -1,0 +1,8 @@
+log/*
+model/*
+data/*
+.vscode
+
+!data/*.zip
+
+*pyc*

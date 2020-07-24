@@ -1,0 +1,33 @@
+{
+    "model": {
+        "cell_size": [8, 8],
+        "obj_shape": [10, 10],
+        "hidden_size": [256, 256, 512],
+        "img_shape": [3, 64, 64],
+        "box_range": [-0.5, 1.5, 0, 1],
+        "anchor_shape": [32, 32],
+        "F": 48,
+        "A": 32
+    },
+    "loader": {
+        "batch_size": 64,
+        "shuffle": true,
+        "drop_last": true
+    },
+    "Adam": {
+        "lr": 1e-4
+    },
+    "KL_Builder": {
+        "prior": {
+            "where": [
+                [0, 0, 0, 0],
+                [1, 1, 0.5, 0.5]
+            ]
+        },
+        "log_space": true
+    },
+    "logdir": "./log/SPAIR",
+    "model_path": "./model/SPAIR/test.pt",
+    "device": "cuda:0",
+    "max_epoch": 10
+}
