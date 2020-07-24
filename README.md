@@ -12,12 +12,18 @@ __NOTE:__ This implement is __NOT complete__. It is just a practice. Look for [o
   year={2019}
 }
 ~~~
+## Dataset
 
-[1]: http://e2crawfo.github.io/pdfs/spair_aaai_2019.pdf
-[2]: https://github.com/e2crawfo/auto_yolo
+Here we use some crack-datasets for crack detect.
 
+All datasets are zipped. See [data](https://github.com/JamzumSum/PyTorch-SPAIR/tree/master/data).
 
 ## Others
 
-A basic understanding in Chinese: [SPAIR_zh]()
-A Chinese translation of the paper: [.docx]()
+* A basic understanding in Chinese: [markdown][3]
+* A Chinese translation of the paper: [docx][4]
+
+[1]: http://e2crawfo.github.io/pdfs/spair_aaai_2019.pdf
+[2]: https://github.com/e2crawfo/auto_yolo
+[3]: https://github.com/JamzumSum/PyTorch-SPAIR/blob/master/doc/SPAIR_zh.md
+[4]: https://github.com/JamzumSum/PyTorch-SPAIR/blob/master/doc/SPAIR_zh.docx
